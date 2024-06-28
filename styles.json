@@ -1,0 +1,57 @@
+
+{
+    "questions":
+    [
+        {
+            "qId":"20",
+            "answer":
+                ["Falsch"],
+            "type":"border",
+            "domType":"label"
+        },
+
+
+
+
+
+        {
+            "qId":"8",
+            "answer":
+                [
+                    "Kaufbeleg prüfen",
+                    "Kunden nach dem Einsatzzweck fragen",
+                    "Lieferkennung prüfen",
+                    "Auf äußere Beschädigungen prüfen",
+                    "Ladezustand der Batterie messen"
+                ],
+            "type":"border",
+            "domType":"p"
+        },
+        {
+            "qId":"1",
+            "answer":
+                ["unter 1%"],
+            "type":"border",
+            "domType":"p"
+        },
+
+
+
+
+
+
+        {
+            "qId":"18",
+            "answer":[
+                ["Pluspol"],
+                ["Minuspol"],
+                ["Fahrzeugmasse"],
+                ["Spenderfahrzeug"],
+                ["Empfängerfahrzeug"],
+                ["umgekehrter"]
+            ],
+            "type":"append",
+            "domType":"p"
+        }
+    ]
+}

@@ -149,6 +149,12 @@ var testNameJson = `{
             "id":24,
             "domType":"span"
         },
+        {
+            "name":"Abschlusstest Kasse",
+            "idstring":"Abschlusstest Kasse Teil 1: Basiswissen",
+            "id":27,
+            "domType":"span"
+        },
 
 
 
@@ -249,6 +255,13 @@ var testNameJson = `{
             "id":26,
             "domType":"span",
             "compound":true
+        },
+        {
+            "name":"Übungsfragen Schrauben Allgemeines (Bearbeitungszeit: Ø 10 min.)",
+            "idstring":"Allgemeinwissen",
+            "id":28,
+            "domType":"span",
+            "compound":true
         }
     ]
 }`;
@@ -280,6 +293,8 @@ var testArr = [
     t23_Leistungsbeurteilungsbogen,
     t24_Zaunpaten,
     t25_FarbeLackeLasuren,
-    t26_Sanitaer
+    t26_Sanitaer,
+    t27_Kasse,
+    t28_Schrauben
 ];
 
