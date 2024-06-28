@@ -1,3 +1,8 @@
+[ Herunterladen ]
+- Auf den grünen Button '<> Code' klicken
+- Auf Download Zip klicken
+
+[ Anleitung ]
 - about:debugging in Firefox als Link eingeben
 - Links auf "This FireFox" / "Dieser FireFox" klicken
 - Auf "Load Temporary Add-on..." / "Temporäres Add-on laden..." klicken
