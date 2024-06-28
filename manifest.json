@@ -1,0 +1,55 @@
+{
+    "manifest_version": 2,
+    "name": "e-Learning 'helper'",
+    "version": "1.0",
+  
+    "description": "",
+  
+    "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://elearning.fishbull.de/*"],
+        "js": [
+          "tests/t0.js",
+          "tests/t1.js",
+          "tests/t2.js", 
+          "tests/t3.js", 
+          "tests/t4.js", 
+          "tests/t5.js",
+          "tests/t6.js",
+          "tests/t7.js",
+          "tests/t8.js",
+          "tests/t9.js",
+          "tests/t10.js",
+          "tests/t11.js",
+          "tests/t12.js",
+          "tests/t13.js",
+          "tests/t14.js",
+          "tests/t15.js",
+          "tests/t16.js",
+          "tests/t17.js",
+          "tests/t18.js",
+          "tests/t19.js",
+          "tests/t20.js",
+          "tests/t21.js",
+          "tests/t22.js",
+          "tests/t23.js",
+          "tests/t24.js",
+          "tests/t25.js",
+          "tests/t26.js",
+          "tests/tests.js", 
+          "elearning.js"]
+      }
+    ],
+
+
+    "permissions": [
+      "webRequest",
+      "activeTab"
+    ]
+  }
+  
