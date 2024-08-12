@@ -155,6 +155,12 @@ var testNameJson = `{
             "id":27,
             "domType":"span"
         },
+        {
+            "name":"Abschlusstest Lagerwareneingangskontrolle (Bearbeitungszeit: Ø 10 Min.)",
+            "idstring":"LaWa EK",
+            "id":29,
+            "domType":"span"
+        },
 
 
 
@@ -256,6 +262,13 @@ var testNameJson = `{
             "domType":"span",
             "compound":true
         },
+
+
+
+
+
+
+
         {
             "name":"Übungsfragen Schrauben Allgemeines (Bearbeitungszeit: Ø 10 min.)",
             "idstring":"Allgemeinwissen",
@@ -302,6 +315,7 @@ var testArr = [
     t25_FarbeLackeLasuren,
     t26_Sanitaer,
     t27_Kasse,
-    t28_Schrauben
+    t28_Schrauben,
+    t29_Lagerwareneingangskontrolle
 ];
 
