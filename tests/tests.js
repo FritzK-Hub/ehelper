@@ -262,6 +262,13 @@ var testNameJson = `{
             "id":28,
             "domType":"span",
             "compound":true
+        },
+        {
+            "name":"Übungsfragen Holzschrauben (Bearbeitungszeit: Ø 10 Min.)",
+            "idstring":"Holzschrauben",
+            "id":28,
+            "domType":"span",
+            "compound":true
         }
     ]
 }`;

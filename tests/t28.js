@@ -158,6 +158,14 @@ var t28_Schrauben = `
             "domType":"p",
             "qDomType":"p"
         },
+        {
+            "qText":"Welche der nachfolgenden Schrauben benötigt kein Gegengewinde?",
+            "answer":
+                ["Terrassenbauschrauben", "Spanplattenschrauben","Tellerkopfschrauben"],
+            "type":"border",
+            "domType":"p",
+            "qDomType":"p"
+        },
 
 
 
@@ -182,7 +190,6 @@ var t28_Schrauben = `
             "exact":0,
             "qDomType":"p"
         },
-
 
 
 
@@ -296,6 +303,47 @@ var t28_Schrauben = `
                 ["${image_t28_8}", "Senkkopf"],
                 ["${image_t28_9}", "Sechskantkopf"],
                 ["${image_t28_0}", "Trompetenkopf"]
+            ],
+            "type":"append",
+            "domType":"p",
+            "qDomType":"p"
+        },
+        {
+            "qText":"Welchen Nutzen haben die nachstehenden Schraubenteile?",
+            "andQText":"Verringert den Einschraubwiderstand.",
+            "andDomType":"option",
+            "answer":[
+                ["Fräsrippen","Zum sauberen Versenken des Kopfes."],
+                ["Teilgewinde","Verhindern Zwischenräume."],
+                ["Schaftfräser","Transportieren die Späne aus dem Bohrschacht."],
+                ["Gleitbeschichtung","Verringert den Einschraubwiderstand."],
+                ["Cutspitze","Verhindert das Reißen des Holzes."]
+            ],
+            "type":"append",
+            "domType":"p",
+            "qDomType":"p"
+        },
+        {
+            "qText":"Ordnen Sie den nachstehenden Anwendungsbereichen die richtige Schraube zu:",
+            "andQText":"Justierschraube",
+            "andDomType":"option",
+            "answer":[
+                ["Holzrahmenbau","Tellerkopf"],
+                ["Verbinden zweier Holzteile, ohne Spaltbildung","Schraube mit Teilgewinde"],
+                ["Anbringen von Sanitärgegenständen","Stockschraube"],
+                ["Holzunterkonstruktion","Justierschraube"]
+            ],
+            "type":"append",
+            "domType":"p",
+            "qDomType":"p"
+        },
+        {
+            "qText":"Ordnen Sie die nachstehenden Stichpunkte den Bildern zu:",
+            "andQText":"allg. Befestigungen von Holz (außen)",
+            "andDomType":"span",
+            "answer":[
+                ["Abbildung 1", "Terrassenbauschraube, Schaftfräser, härter als A2, C1"],
+                ["Abbildung 2", "Spanplattenschraube, allg. Befestigungen von Holz (außen), relativ weich, A2"]
             ],
             "type":"append",
             "domType":"p",
