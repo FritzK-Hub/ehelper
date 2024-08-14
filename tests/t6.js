@@ -218,9 +218,11 @@ var t6_Bewaeserungstechnik = `
         {
             "qId":"2",
             "answer":
-                ["5 bar"],
+                [["5 bar", "0,5 bar"]],
             "type":"border",
-            "domType":"p"
+            "domType":"p",
+            "exact":0,
+            "qDomType":"p"
         },
         {
             "qId":"8",

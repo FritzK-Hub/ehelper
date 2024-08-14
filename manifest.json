@@ -44,6 +44,7 @@
           "tests/t27.js",
           "tests/t28.js",
           "tests/t29.js",
+          "tests/t30.js",
           "tests/tests.js", 
           "elearning.js"]
       }

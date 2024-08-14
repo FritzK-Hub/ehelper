@@ -161,6 +161,12 @@ var testNameJson = `{
             "id":29,
             "domType":"span"
         },
+        {
+            "name":"Abschlusstest Webclient",
+            "idstring":"Software-Wissen",
+            "id":30,
+            "domType":"span"
+        },
 
 
 
@@ -282,7 +288,29 @@ var testNameJson = `{
             "id":28,
             "domType":"span",
             "compound":true
+        },
+        {
+            "name":"Übungsfragen Metallschrauben (Bearbeitungszeit: Ø 10 Min.)",
+            "idstring":"Metallschrauben",
+            "id":28,
+            "domType":"span",
+            "compound":true
+        },
+        {
+            "name":"Abschlusstest Schrauben (Bearbeitungszeit: Ø 20 min.)",
+            "idstring":"Abschlusstest",
+            "id":28,
+            "domType":"span",
+            "compound":true
         }
+
+
+
+
+
+
+
+
     ]
 }`;
 
@@ -316,6 +344,7 @@ var testArr = [
     t26_Sanitaer,
     t27_Kasse,
     t28_Schrauben,
-    t29_Lagerwareneingangskontrolle
+    t29_Lagerwareneingangskontrolle,
+    t30_WebClient
 ];
 
